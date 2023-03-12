@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freesh Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="website icon" href="image/freesh movie.png" type="png">
+
+</head>
+<body onpageshow="nice();" onpageshow="oncl();">
+
+
+
+
+    <header>
+        
+        <a href="#"><img src="image/freesh movie.png" id="logoimg"></a>
+        <div class="d">
+            <input type="checkbox" class="checkbox" id="chk"/>
+            <label class="label" for="chk">
+                <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+              
+              <div class="black"></div>
+            </label>
+            </div>
+        <nav id="nv">
+            <a href="../Movies.html">HOME</a>
+            <a href="../movies/moveis.html"   class ="jj" class="active" id="mvl">Movies</a><br><div class="mc" id="mvli">
+                <a href="#en">English Movies</a>
+                <a href="#arb">Arabic Movies</a>
+                <a href="#">Ruchian Movies</a>
+                <a  id="close" style="color: red; ">X</a>
+
+            </div>
+            <a href="" class ="con">Contact</a>
+          
+            
+            
+        </nav>
+        <nav class="search-container">
+            
+            <input list="sh1" id="sh" id="searchon" type="text" name="search" placeholder="Search..." class="search-input">
+            <datalist id="sh1">
+                <option value="Hulk" id="hulkop">
+                <option value="Avengers">
+                <option value="Avatar">
+                <option value="Black Banther"> 
+                <option value="Doctor strange 2">
+                <option value="Ant Man3">
+                <option value="Man of steel">
+               
+                   
+               
+
+            </datalist>
+
+            
+            <a  class="search-btn">
+                   <button id="sear" type="submit" style="background-color: white; cursor: pointer; border: none;"><i class="fas fa-search"></i></button>  
+            </a>
+
+        </nav>
+      
+       
+        
+    </header>
+    <center> 
+        <div class="zm"> 
+        <img src="image/black.png "width=400px height=400px alt=" ">  
+        <h1 class="logo">BLACK ZOMBIE</h1><br> 
+            <div class="sm">
+             <a href="https://www.facebook.com/black.zombie.23?mibextid=ZbWKwL" class="link fb"><span class="iconify" data-icon="akar-icons:facebook-fill"></span></a>
+              <a href="https://t.me/blackzombie3301" class="link tweet"><span class="iconify" data-icon="akar-icons:telegram-fill"></span></a>
+              <a href="https://github.com/Blackzombie33" class="link git"><span class="iconify" data-icon="akar-icons:github-fill"></span></a>
+                   <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+         <br>
+        <br> 
+            <hr> 
+        <br> 
+         <img src="image/return.png "width=400px height=400px alt=" ">  
+        <h1 class="logo">RETURN CODE</h1>
+        <div class="sm">
+              <a href="https://www.facebook.com/profile.php?id=100081994509154&mibextid=ZbWKwL" class="link fb"><span class="iconify" data-icon="akar-icons:facebook-fill"></span></a>
+              <a href="https://t.me/Return54" class="link tweet"><span class="iconify" data-icon="akar-icons:telegram-fill"></span></a>
+              <a href="https://github.com/deadcode22" class="link git"><span class="iconify" data-icon="akar-icons:github-fill"></span></a>
+                  <br>
+        <br> 
+            <hr> 
+        <br> 
+            </div> 
+         <img src="image/iron.png "width=400px height=400px alt=" ">  
+        <h1 class="logo">IRON YAHIA</h1>
+        <div class="sm">
+              <a href="https://www.facebook.com/profile.php?id=100081205712179&mibextid=ZbWKwL" class="link fb"><span class="iconify" data-icon="akar-icons:facebook-fill"></span></a>
+              <a href="https://t.me/Iron_yahia" class="link tweet"><span class="iconify" data-icon="akar-icons:telegram-fill"></span></a> 
+         </div>
+         </div>
+         </center>  
+    <script>
+        const chk = document.getElementById('chk')
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('dark')
+  document.getElementById('af').style.backgroun='black';
+})
+    </script>
+
+
+    </body>
