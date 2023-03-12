@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    position: relative;
+}
+body{
+    background:linear-gradient(#ffff, #4169E1 );
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    --time: 10s;
+    transition: background 0.2s linear;
+    
+    
+   
+}
+.loading-page{
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+
+.loading-page img{
+  width: 100%;
+  height: 100%;
+
+}
+.freesh{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  color: white;
+  left: 10%;
+  font-size: 1.5rem;
+
+
+}
+.movies{
+  display: flex;
+  position: absolute;
+  top: 38%;
+  color: white;
+  left: 20%;
+  font-size: 1.3rem;
+
+}
+#log{
+  transition: 7s all linear;
+  scale: 0;
+}
+.logo{
+  position: absolute;
+  top: 10%;
+  font-size: 2rem;
+  background-color: white;
+  border-radius: 50%;
+}
+#f{
+  transition: 1s all linear;
+  scale: 0;
+}
+#r{
+  transition: 1.5s all linear;
+  scale: 0;
+}
+
+#e{
+  transition: 2s all linear;
+  scale: 0;
+}
+
+#e1{
+  transition: 2.5s all linear;
+  scale: 0;
+}
+
+#s{
+  transition: 3s all linear;
+  scale: 0;
+}
+
+#h{
+  transition: 3s all linear;
+  scale: 0;
+}
+#m{
+  transition: 4s all linear;
+  scale: 0;
+
+}
+h1{
+  margin-right: 12px;
+}
+#o{
+  transition: 4.5s all linear;
+  scale: 0;
+
+}
+#v{
+  transition: 5s all linear;
+  scale: 0;
+
+}
+#i{
+  transition: 5.5s all linear;
+  scale: 0;
+
+}
+#e2{
+  transition: 6s all linear;
+  scale: 0;
+
+}
+#s1{
+  transition: 6.5s all linear;
+  scale: 0;
+
+}
+#bt{
+  padding: 0.5rem 1.9rem;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  color: white;
+  transition: 2s all linear;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 73%;
+  left:-50%;
+
+
+
+}
+#bt:hover{
+  transition: 1s all linear;
+  background-color: black;
+}
+#bt i{
+  padding-left:6px ;
+  padding-top: 1px;
+}

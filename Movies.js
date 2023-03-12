@@ -1,0 +1,16 @@
+function load(){
+  document.getElementById('f').style.scale='1'
+  document.getElementById('r').style.scale='1'
+  document.getElementById('e').style.scale='1'
+  document.getElementById('e1').style.scale='1'
+  document.getElementById('s').style.scale='1'
+  document.getElementById('h').style.scale='1'
+  document.getElementById('m').style.scale='1'
+  document.getElementById('o').style.scale='1'
+  document.getElementById('v').style.scale='1'
+  document.getElementById('i').style.scale='1'
+  document.getElementById('e2').style.scale='1'
+  document.getElementById('s1').style.scale='1'
+  document.getElementById('log').style.scale='0.5'
+  document.getElementById('bt').style.left='40%'
+}
