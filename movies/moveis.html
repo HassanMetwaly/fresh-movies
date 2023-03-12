@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freesh Movies</title>
+    <link rel="stylesheet" href="movies.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="website icon" href="movies card/freesh movie.png" type="png">
+
+</head>
+<body onpageshow="nice();" onpageshow="oncl();">
+
+
+
+
+    <header>
+        
+        <a href="#"><img src="movies card/freesh movie.png" id="logoimg"></a>
+        <div class="d">
+            <input type="checkbox" class="checkbox" id="chk"/>
+            <label class="label" for="chk">
+                <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+              
+              <div class="black"></div>
+            </label>
+            </div>
+        <nav id="nv">
+            <a href="../Movies.html">HOME</a>
+            <a   class ="jj" class="active" id="mvl">Movies</a><br><div class="mc" id="mvli">
+                <a href="#en">English Movies</a>
+                <a href="#arb">Arabic Movies</a>
+                <a href="#">Ruchian Movies</a>
+                <a  id="close" style="color: red; ">X</a>
+
+            </div>
+            <a href="../Contact/index.html" class ="coming">Contact</a>
+          
+            
+            
+        </nav>
+        <nav class="search-container">
+            
+            <input list="sh1" id="sh" id="searchon" type="text" name="search" placeholder="Search..." class="search-input">
+            <datalist id="sh1">
+                <option value="Hulk" id="hulkop">
+                <option value="Avengers">
+                <option value="Avatar">
+                <option value="Black Banther"> 
+                <option value="Doctor strange 2">
+                <option value="Ant Man3">
+                <option value="Man of steel">
+               
+                   
+               
+
+            </datalist>
+
+            
+            <a  class="search-btn">
+                   <button id="sear" type="submit" style="background-color: white; cursor: pointer; border: none;"><i class="fas fa-search"></i></button>  
+            </a>
+
+        </nav>
+      
+       
+        
+    </header>
+  
+
+<div class="z" id="q">
+    
+    <img src="" id="imgsser" >
+    <a id="filmssearch" href=""><i class="fa-solid fa-play"></i></a>
+    <a onclick="hide();">X</a>
+</div>
+
+    <div class="video">
+       
+        
+        
+        <video autoplay muted loop src="movies card/Avengers Assemble Scene - The Avengers (2012) Movie Clip HD.mp4"></video>
+        
+       
+    </div>
+    <div class="mod">
+        <h4>The Avengers</h4>
+
+        
+        
+
+    </div>
+    <div class="vi">
+        <i class="fa-solid fa-play"><a href="movies show/Avengers2012.html"></a></i>
+        <i class="fa-solid fa-download"></i>
+
+    </div>
+    
+    
+    
+    
+
+
+    
+   
+
+  
+
+    <section class="main" id="en">
+      
+
+         
+
+
+       
+      
+        
+        <div id="mvl" class="tit"><h1>English Movies</h1></div>
+        
+        <div class="container">
+            <div class="cards" onmouseenter="oncl();">
+                <div class="img" id="im1">
+                    <img  class="img-cards" src="movies card/The-Avengers-2012.jpg" >
+                </div>
+                <div class="text" id="te">
+
+                    <a href="movies show/Avengers2012.html"><i class="fa-solid fa-play"></i></a>
+                    <a href="#"><i class="fa-solid fa-download"></i></a>
+                    <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+
+                    <h2>The Avengers-2012</h2>
+
+
+
+                </div>
+                </div>
+                <div class="cards"  onmouseenter="oncl();">
+                    <div class="img">
+                        <img class="img-cards" src="movies card/doctor strange.jfif" >
+                    </div>
+                    <div class="text" id="te">
+    
+                        <a href="movies show/dr strange2.html"><i class="fa-solid fa-play"></i></a>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                        <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+    
+                        <h2>Doctor Stragne 2</h2>
+    
+    
+    
+                    </div>
+                    </div>
+                    <div class="cards" id="hulk">
+                        <div class="img">
+                            <img class="img-cards" src="movies card/hulk.jfif" >
+                        </div>
+                        <div class="text" id="te">
+        
+                            <a href="movies show/hulk1.html"><i class="fa-solid fa-play"></i></a>
+                            <a href="#"><i class="fa-solid fa-download"></i></a>
+                            <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+        
+                            <h2>Hulk</h2>
+        
+        
+        
+                        </div>
+                        </div>
+                        <div class="cards">
+                            <div class="img">
+                                <img class="img-cards" src="movies card/avatar.webp" >
+                            </div>
+                            <div class="text">
+            
+                                <a href="movies show/Avatar.html"><i class="fa-solid fa-play"></i></a>
+                                <a href="#"><i class="fa-solid fa-download"></i></a>
+                                <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </p>
+            
+                                <h2>Avatar</h2>
+            
+            
+            
+                            </div>
+                            </div>
+                            <div class="cards">
+                                <div class="img">
+                                    <img class="img-cards" src="movies card/man of  steel.jfif" >
+                                </div>
+                                <div class="text">
+                
+                                   <a href="movies show/manofsteel.html"> <i class="fa-solid fa-play"></i></a>
+                                   <a href="#"><i class="fa-solid fa-download"></i></a>
+                                    <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                
+                                    <h2>Man of steel</h2>
+                
+                
+                
+                                </div>
+                                </div>
+                                <div class="cards">
+                                    <div class="img">
+                                        <img class="img-cards" src="movies card/no way home.jfif" >
+                                    </div>
+                                    <div class="text">
+                    
+                                        <a href="movies show/spiderman3.html"><i class="fa-solid fa-play"></i></a>
+                                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                                        <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </p>
+                    
+                                        <h2>Spider Man 3</h2>
+                    
+                    
+                    
+                                    </div>
+                                    </div>
+                                    <div class="cards">
+                                        <div class="img">
+                                            <img class="img-cards" src="movies card/Wakanda For Ever.webp" >
+                                        </div>
+                                        <div class="text">
+                        
+                                           <a href="movies show/Waknd for ever.html"> <i class="fa-solid fa-play"></i></a>
+                        
+                                            <a href="#"><i class="fa-solid fa-download"></i></a>
+                                            <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </p>
+                        
+                                            <h2>Wakanda For Ever</h2>
+                        
+                        
+                        
+                                        </div>
+                                        </div>
+                                        <div class="cards">
+                                            <div class="img">
+                                                <img class="img-cards" src="movies card/scream2022.webp" >
+                                            </div>
+                                            <div class="text">
+                            
+                                                <a href="movies show/Scream2022.html"><i class="fa-solid fa-play"></i></a>
+                                                <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </p>
+                            
+                                                <h2>Scream 2022</h2>
+                            
+                            
+                            
+                                            </div>
+                                            </div>
+                                            <div class="cards">
+                                                <div class="img">
+                                                    <img class="img-cards" src="movies card/joker.webp" >
+                                                </div>
+                                                <div class="text">
+                                
+                                                    <a href="movies show/Joker.html"><i class="fa-solid fa-play"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                    <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </p>
+                                
+                                                    <h2>Joker</h2>
+                                
+                                
+                                
+                                                </div>
+                                                </div>
+                                                <div class="cards">
+                                                    <div class="img">
+                                                        <img class="img-cards" src="movies card/blackadam.webp" >
+                                                    </div>
+                                                    <div class="text">
+                                    
+                                                        <a href="movies show/BlackAdam.html"><i class="fa-solid fa-play"></i></a>
+                                                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                        <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                        </p>
+                                    
+                                                        <h2>Black Adam</h2>
+                                    
+                                    
+                                    
+                                                    </div>
+                                                    </div>
+                                                    <div class="cards">
+                                                        <div class="img">
+                                                            <img class="img-cards" src="movies card/ant man3.jfif" >
+                                                        </div>
+                                                        <div class="text">
+                                        
+                                                            <a href="movies show/6544kl;"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                            <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                                <i class="fa-solid fa-star"></i>
+                                                            </p>
+                                        
+                                                            <h2>Atn Man3</h2>
+                                        
+                                        
+                                        
+                                                        </div>
+                                                        </div>
+                                                        <div class="cards">
+                                                            <div class="img">
+                                                                <img class="img-cards" src="movies card/little dixie.webp" >
+                                                            </div>
+                                                            <div class="text">
+                                            
+                                                                <a href="movies show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                                                <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                                <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                                    <i class="fa-solid fa-star"></i>
+                                                                </p>
+                                            
+                                                                <h2>Little Dixie</h2>
+                                            
+                                            
+                                            
+                                                            </div>
+                                                            </div>
+
+
+           
+           
+
+        </div>
+    </section>
+    <section class="Arabic-Films" id="arb">
+        <h1 >Arabic Movies</h1>
+        <div class="container1" id="c1">
+            <div class="cards">
+                <div class="img">
+                    <img class="img-cards" src="movies card/kirawalgen.webp" >
+                </div>
+                <div class="text">
+
+                    <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                    <a href="#"><i class="fa-solid fa-download"></i></a>
+                    <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+
+                    <h2>كيرة والجن</h2>
+
+
+
+                </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img class="img-cards" src="movies card/bahbk.webp" >
+                    </div>
+                    <div class="text">
+    
+                        <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                        <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+    
+                        <h2>بحبك</h2>
+    
+    
+    
+                    </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img">
+                            <img class="img-cards" src="movies card/3amohm.webp" >
+                        </div>
+                        <div class="text">
+        
+                            <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                            <a href="#"><i class="fa-solid fa-download"></i></a>
+                            <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+        
+                            <h2>عمهم</h2>
+        
+        
+        
+                        </div>
+                        </div>
+                        <div class="cards">
+                            <div class="img">
+                                <img class="img-cards" src="movies card/man4.webp" >
+                            </div>
+                            <div class="text">
+            
+                                <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                <a href="#"><i class="fa-solid fa-download"></i></a>
+                                <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </p>
+            
+                                <h2>الرجل الرابع</h2>
+            
+            
+            
+                            </div>
+                            </div>
+                            <div class="cards">
+                                <div class="img">
+                                    <img class="img-cards" src="movies card/asba7orba.webp" >
+                                </div>
+                                <div class="text">
+            
+                                    <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                    <a href="#"><i class="fa-solid fa-download"></i></a>
+                                    <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                
+                                    <h2>اشباح اوربا</h2>
+                
+                
+                
+                                </div>
+                                </div>
+                                <div class="cards">
+                                    <div class="img">
+                                        <img class="img-cards" src="movies card/wa7edtany.webp" >
+                                    </div>
+                                    <div class="text">
+                    
+                                        <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                        <a href="#"><i class="fa-solid fa-download"></i></a>
+                                        <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                            <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </p>
+                    
+                                        <h2>واحد تاني </h2>
+                    
+                    
+                    
+                                    </div>
+                                    </div>
+                                    <div class="cards">
+                                        <div class="img">
+                                            <img class="img-cards" src="movies card/spider.webp" >
+                                        </div>
+                                        <div class="text">
+                        
+                                            <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                            <a href="#"><i class="fa-solid fa-download"></i></a>
+                                            <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </p>
+                        
+                                            <h2>العنكبوت</h2>
+                        
+                        
+                        
+                                        </div>
+                                        </div>
+                                        <div class="cards">
+                                            <div class="img">
+                                                <img class="img-cards" src="movies card/alheba.webp" >
+                                            </div>
+                                            <div class="text">
+                            
+                                                <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                                <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                    <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </p>
+                            
+                                                <h2>الهيبة</h2>
+                            
+                            
+                            
+                                            </div>
+                                            </div>
+                                            <div class="cards">
+                                                <div class="img">
+                                                    <img class="img-cards" src="movies card/ald3wa3ama.webp" >
+                                                </div>
+                                                <div class="text">
+                                
+                                                    <a href="https://freesh-moviesblackfrostironman4.on.drv.tw/Movies%20site/movies/movies%20show/LittleDixie.html"><i class="fa-solid fa-play"></i></a>
+                                                    <a href="#"><i class="fa-solid fa-download"></i></a>
+                                                    <p><i class="fa-solid fa-star" style="color: darkgoldenrod;"></i> 
+                                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                        <i class="fa-solid fa-star" style="color: darkgoldenrod;"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </p>
+                                
+                                                    <h2>الدعوة عامة </h2>
+                                
+                                
+                                
+                                                </div>
+                                                </div>
+                                               
+                                                    
+                                                      
+
+        </div>
+        
+
+
+    </section>
+ 
+
+
+
+
+
+
+
+<script src="movies.js"></script>
+
+
+    
+</body>
+</html>
